@@ -12,3 +12,14 @@ result = model.predict( source='https://github.com/fabianvanegasr/proyecto2/blob
 print("Parece que funcionó")
 
 print("YOLO listo")
+
+# si quiero forzar la carpeta de guardado
+'''
+results = model.predict(
+    source="imagenes/perros.jpg",
+    save=True,
+    project="runs/detect",
+    name="predict"
+)
+
+'''
